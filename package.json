@@ -1,8 +1,6 @@
 {
   "name": "FastGithubSetup",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "node script/build.js"
   },
