@@ -1,0 +1,18 @@
+name: Build FastGithub
+on: push
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4.0.1
+        with:
+          node-version: "21"
+      - name: Setup Pnpm
+        uses: pnpm/action-setup@v2.4.0
+      - name: Install Dependencies
+        run: pnpm install
+      - name: Build
+        run: pnpm run build
