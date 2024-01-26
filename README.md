@@ -1,3 +1,5 @@
+> **This Repo has been archived since 2024/01/27**
+
 # FastGithub Setup
 
 FastGithub Setup For Windows
